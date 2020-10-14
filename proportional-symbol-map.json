@@ -1,1 +1,21 @@
-
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data":{
+        "url": "https://raw.githubusercontent.com/KadekSatriadi/fit3179-hmw9/main/earthquake.csv"
+    },
+    "width": 900,
+    "height": 500, 
+    "mark":{
+        "type":"circle"
+    },
+    "encoding":{
+        "latitude": {
+            "field": "latitude",
+            "type": "quantitative"
+        },
+        "longitude":{
+            "field": "longitude",
+            "type": "quantitative"
+        }
+    }
+}
